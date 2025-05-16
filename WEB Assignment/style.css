@@ -11,6 +11,7 @@ body{
     font-family: 'Saira', sans-serif;
     line-height: 1.5em;
     border-style: dashed;
+    background-color: black;
 }
 #header_container {
     display: flex;
@@ -97,5 +98,14 @@ nav ul li a:active{
     justify-content: space-between;
     padding: 20px;
     border-style: solid;
+}
+#footer_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    background-color: blue;
+    border-style: groove;
 }
 
