@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <div class=" logo_search">
+                <div id="branding">
+                    <a href="index.html"><img src="images/icons/logo.png" alt="logo" height="50" width="80"></a>
+                </div>
+
+                <div class="search_container">
+                    <form action="#" method="get">
+                        <input type="text" id="search_input" placeholder="search for prodcuts ">
+                    </form>
+                </div>
+                <div class=" account_cart">
+                    <div class="profile_container">
+                        <img src="images/icons/account.png" alt="Profile" width="30" height="30">
+                    </div>
+                    <div class="cart_container">
+                        <img src="images/icons/cart.png" alt="Cart" width="30" height="30">
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shirts.html">Shop</a></li>
+                    <li><a href="about us.html">About us</a> </li>
+                    <li><a href="contact us.html">Contact us</a> </li>
+                    <li><a href="feedback.html">Feedback</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contact">
+        <h1 id=he1><b>Feedback</b></h1>
+        <p>If you have any questions, comments, or feedback, please feel free to reach out to us using the form below.
+            We value your input and will get back to you as soon as possible.</p>
+    </div>
+
+
+    <section class="main-container">
+
+        <main class="main-content">
+
+            <div class="feedback-form">
+                <form class="feedback" action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="+267 71000000">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                    <label for="how did you hear">How did you hear about us?</label>
+                    <select id="how did you hear" name="how did you hear" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="social media">Social Media</option>
+                        <option value="friend">Friend</option>
+                        <option value="search engine">Search Engine</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Write us a message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </main>
+    </section>
+    <footer>
+
+        <div class="contact-info">
+            <div class="contacts">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:"> dime@gmail.com</a>
+                <p>Phone: <a href="tel:">+267 75070259</a></p>
+                <p>Address: Dime clothing, Gaborone, Botswana</p>
+            </div>
+            <div class="social-icons">
+                <div class="follow-us">
+                    <h2>Follow us</h2>
+                </div>
+                <div class="icon-links">
+                    <a href="https://Facebook.com"><img src="images/icons/icons8-facebook-480 (1).png"
+                            alt="Facebook"></a>
+                    <a href="https://x.com"><img src="images/icons/icons8-x-500.png" alt="Twitter"></a>
+                    <a href="https://instagram.com"><img src="images/icons/icons8-instagram-480.png"
+                            alt="Instagram"></a>
+                </div>
+            </div>
+
+        </div>
+        <section class="copyright">
+            <span> &copy; Dime. All Rights Reserved.</span>
+        </section>
+    </footer>
+</body>
+
+</html>
+<!-- CSE18-064@thuto.bac.ac.bw/Orebotse.M.N -->
