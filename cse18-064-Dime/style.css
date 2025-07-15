@@ -571,7 +571,7 @@ footer {
     text-decoration: none;
     color: #000000;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #B8CAD9;
     font-size: 1em;
     transition: background-color 0.3s ease, color 0.3s ease
@@ -583,8 +583,8 @@ footer {
 }
 
 .page-number:active {
-    background-color: #011526;
-    color: white;
+    background-color: #ffffff;
+    color: #011526;
 }
 
 
